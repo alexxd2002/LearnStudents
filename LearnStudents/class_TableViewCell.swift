@@ -15,7 +15,7 @@ class class_TableViewCell: UITableViewCell {
     /**
      This function, creats all cells with the classnames
     */
-    func setClassName(classPlan: ClassPlan){
+    func setClassName(classPlan: ClassPlan) {
         className.text = classPlan.className
     }
     

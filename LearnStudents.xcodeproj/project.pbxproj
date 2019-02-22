@@ -17,6 +17,7 @@
 		1104A00B218E003C00D78D0A /* Class_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A00A218E003C00D78D0A /* Class_TableViewController.swift */; };
 		1104A00D218E031A00D78D0A /* addClass_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A00C218E031A00D78D0A /* addClass_ViewController.swift */; };
 		1104A00F218E045700D78D0A /* addClassVC_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A00E218E045700D78D0A /* addClassVC_CoreData.swift */; };
+		11555FF522209422008DDE4F /* Class_TV_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11555FF422209422008DDE4F /* Class_TV_CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1104A00A218E003C00D78D0A /* Class_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_TableViewController.swift; sourceTree = "<group>"; };
 		1104A00C218E031A00D78D0A /* addClass_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addClass_ViewController.swift; sourceTree = "<group>"; };
 		1104A00E218E045700D78D0A /* addClassVC_CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addClassVC_CoreData.swift; sourceTree = "<group>"; };
+		11555FF422209422008DDE4F /* Class_TV_CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_TV_CoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1104A00E218E045700D78D0A /* addClassVC_CoreData.swift */,
 				1104A00C218E031A00D78D0A /* addClass_ViewController.swift */,
 				1104A00A218E003C00D78D0A /* Class_TableViewController.swift */,
+				11555FF422209422008DDE4F /* Class_TV_CoreData.swift */,
 				11034A5D21972D6E00EAA7F8 /* ClassPlan.swift */,
 				11034A5F21972EF400EAA7F8 /* class_TableViewCell.swift */,
 				11049FFD218DFEB300D78D0A /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				11034A5E21972D6E00EAA7F8 /* ClassPlan.swift in Sources */,
 				11034A6021972EF400EAA7F8 /* class_TableViewCell.swift in Sources */,
 				1104A00B218E003C00D78D0A /* Class_TableViewController.swift in Sources */,
+				11555FF522209422008DDE4F /* Class_TV_CoreData.swift in Sources */,
 				1104A00D218E031A00D78D0A /* addClass_ViewController.swift in Sources */,
 				11049FF4218DFEB100D78D0A /* AppDelegate.swift in Sources */,
 				11049FFC218DFEB100D78D0A /* LearnStudents.xcdatamodeld in Sources */,

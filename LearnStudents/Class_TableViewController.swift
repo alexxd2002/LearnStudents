@@ -10,11 +10,18 @@ import UIKit
 
 class Class_TableViewController: UITableViewController {
 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(loadClasses())
+        
     }
 
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print(loadClasses())
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -24,14 +31,16 @@ class Class_TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return loadClasses().count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "class", for: indexPath)
-
+        var className = loadClasses()[indexPath.row]
         
+        let cell = tableView.dequeueReusableCell(withIdentifier: "class", for: indexPath) as! class_TableViewCell
+        
+        cell.setClassName(classPlan: className)
         
         return cell
     }

@@ -14,7 +14,7 @@ extension addClass_ViewController {
     //MARK: - Save
     
     /**
-     This function saves the new class in Core Data
+     This function saves a new class in Core Data
      
      * identify context
      * checks entity "Class"
@@ -59,11 +59,11 @@ extension addClass_ViewController {
      * makes a request
      * print results or error
     */
-    func loadClasses() {
+    func loadClasses() -> String {
         
         //identify context
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return
+            return "Text"
         }
         let context = appDelegate.persistentContainer.viewContext
         let entityName = "Class"
@@ -78,7 +78,7 @@ extension addClass_ViewController {
                 if let result = r as? NSManagedObject {
                     
                     guard let name = result.value(forKey: "name") as? String else {
-                        return
+                        return "Text"
                     }
                     
                     print("Class with name: \t\(name)")
@@ -90,7 +90,7 @@ extension addClass_ViewController {
             print(error.localizedDescription)
         }
         
-        
+        return "Ausgabe erfolgriech!"
     }
     
 }
